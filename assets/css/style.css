@@ -248,8 +248,26 @@ footer {
 
 
 
-@media (min-width: 576px) { 
-    header h1 {
-        font-size: 34px!important;
+@media (max-width: 575.98px) { 
+    
+
+    .titulo--principal h1 {
+        font-size: 40px!important;
+    }
+    .pp,
+    .ap,
+    .mc {
+        margin-right: 20px;
+    }
+
+    .cartoes {
+        margin-top:25px
+    }
+    .botao {
+        height: 50px;
+        line-height: 30px!important;
+    }
+    .botao a{
+        font-size: 12px;
     }
  }
