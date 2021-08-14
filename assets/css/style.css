@@ -61,6 +61,12 @@ video {
 }
 
 
+.alert-warning {
+    color: #241978!important;
+    background-color: #ffc107!important;
+    border: 1px solid #ffc107!important;
+}
+
 header {
     margin-bottom: 30px;
     text-align: center;
@@ -73,6 +79,28 @@ header {
     height:463px;
 }
 
+.sound::before {
+    font-family: 'Exo', sans-serif!important;
+    content: " ";
+    background-image: url(../images/sound4.svg);
+    width:25px;
+    height:25px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sound {
+    color: #7dbc3f !important;
+    font-style: italic;
+    font-family: 'Exo', sans-serif!important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger;
+    line-height: 1.2;
+}
+
 .botao {
     cursor: pointer;
     height: 60px;
@@ -81,11 +109,13 @@ header {
     font-family: 'Exo', sans-serif!important;
     font-weight: 500!important;
     text-transform: uppercase;
+    background-color: #ffc107!important;
+    border-color:#ffc107!important;
 }
 
 a {
     text-decoration: none!important;
-    color:#fff !important;
+    color:#141414 !important;
 }
 
 
@@ -113,22 +143,22 @@ a {
 }
 
 .mc {
-    background-image: url('../images/mc2.svg');
+    background-image: url('../images/mc.svg');
     margin-right: 80px;
 }
 
 .pp {
-    background-image: url('../images/pp2.svg');
+    background-image: url('../images/pp.svg');
     margin-right: 80px;
 }
 
 .ap {
-    background-image: url('../images/ap2.svg');
+    background-image: url('../images/ap.svg');
     margin-right: 80px;
 }
 
 .vs {
-    background-image: url('../images/vs2.svg');
+    background-image: url('../images/vs.svg');
 }
 
 
@@ -264,6 +294,11 @@ footer {
         width: 100%;
         height: 380px;
     }
+
+    .sound {
+        font-size:small;
+    }
+
     .pp,
     .ap,
     .mc {
