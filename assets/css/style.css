@@ -105,6 +105,9 @@ header {
     line-height: 1.2;
     margin-top: 40px;
 }
+#botao {
+    display: none;  
+    }
 
 .botao {
     cursor: pointer;
@@ -173,6 +176,7 @@ footer {
     align-items:center;
     flex-direction:column;
     background-color: #141414;
+    margin-top: 50px;
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -316,3 +320,7 @@ footer {
         font-size: 12px;
     }
  }
+
+ .botao {
+    display: none;
+}
