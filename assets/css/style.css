@@ -72,11 +72,15 @@ header {
     text-align: center;
 }
 
-
 .video {
-    margin-top:20px;
-    width:70%;
-    height:463px;
+    position: relative;
+    display: flex!important;
+    flex-direction: column;
+    min-height: 450px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .sound::before {
@@ -96,9 +100,10 @@ header {
     font-family: 'Exo', sans-serif!important;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     font-size: larger;
     line-height: 1.2;
+    margin-top: 40px;
 }
 
 .botao {
@@ -288,11 +293,6 @@ footer {
 
     .titulo--principal h1 {
         font-size: 22px!important;
-    }
-
-    .video {
-        width: 100%;
-        height: 380px;
     }
 
     .sound {

@@ -1,4 +1,4 @@
-var seconds = 5;
+var seconds = 1857;
 
 setTimeout(() => {
     document.querySelector('.botao').classList.remove('disabled');
