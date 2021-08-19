@@ -1,4 +1,4 @@
 Site
 
 
-https://www.lifehackerpro.site/
+https://www.lifehacker-pro.site/
